@@ -6,12 +6,14 @@
     "jsx": "react",
     "noImplicitAny": false,
     "sourceMap": true,
-    "outDir":"./lib/"
+    "outDir": "./lib/"
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "src/tests/jestVersion.test.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "src/tests/**/*"
   ]
 }
